@@ -34,9 +34,9 @@ DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
+IP-CIDR,24.199.123.28/32
+IP-CIDR,64.23.132.171/32
+IP-ASN,20473
 
 # Claude
 DOMAIN,servd-anthropic-website.b-cdn.net
@@ -56,11 +56,11 @@ DOMAIN-SUFFIX,statsigapi.net
 DOMAIN,anthropic.auth0.com
 DOMAIN,anthropic-com.ghost.io
 DOMAIN,anthropic.com.cdn.cloudflare.net
-GEOSITE,anthropic
+# GEOSITE,anthropic
 DOMAIN-KEYWORD,datadog
 DOMAIN-KEYWORD,sentry
 DOMAIN-KEYWORD,sift
-GEOSITE,category-ntp
+# GEOSITE,category-ntp
 
 
 # BardAI
@@ -278,8 +278,8 @@ DOMAIN-SUFFIX,poe.com
 # DOMAIN-SUFFIX,x.ai
 
 # IP / Network
-IP-ASN,14061,no-resolve
-# IP-ASN,20473,no-resolve
-IP-CIDR,129.146.3.78/32,no-resolve
-# IP-CIDR,24.199.123.28/32,no-resolve
-# IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,14061
+# IP-ASN,20473
+IP-CIDR,129.146.3.78/32
+# IP-CIDR,24.199.123.28/32
+# IP-CIDR,64.23.132.171/32
