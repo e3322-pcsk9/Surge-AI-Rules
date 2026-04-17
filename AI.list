@@ -34,13 +34,14 @@ DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
-IP-CIDR,24.199.123.28/32
-IP-CIDR,64.23.132.171/32
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473
 
 # Claude
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
@@ -198,6 +199,7 @@ DOMAIN-SUFFIX,setup.workos.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,storage.googleapis.com
 DOMAIN-SUFFIX,tcr9i.chat.openai.com
 # DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,workos.com
@@ -267,6 +269,7 @@ DOMAIN-SUFFIX,cici.com
 DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,dola.com
+DOMAIN-SUFFIX,forefront.ai
 # DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,jasper.ai
@@ -279,7 +282,10 @@ DOMAIN-SUFFIX,poe.com
 
 # IP / Network
 IP-ASN,14061
+IP-ASN,399358,no-resolve
 # IP-ASN,20473
-IP-CIDR,129.146.3.78/32
+IP-CIDR,129.146.3.78/32,no-resolve
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/32,no-resolve
 # IP-CIDR,24.199.123.28/32
 # IP-CIDR,64.23.132.171/32
