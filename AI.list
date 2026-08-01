@@ -1,3 +1,10 @@
+# Claude Code 最高优先级（置于最前，压过所有通用规则）
+GEOSITE,anthropic
+DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,sentry
+DOMAIN-KEYWORD,sift
+GEOSITE,category-ntp
+
 # Perplexity
 DOMAIN-SUFFIX,perplexity.ai
 # DOMAIN-SUFFIX,perplexity.ai
@@ -50,18 +57,15 @@ DOMAIN-SUFFIX,clau.de
 # DOMAIN-SUFFIX,claude.ai
 # DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,statsigapi.net
+DOMAIN,browser-intake-us5-datadoghq.com
 # DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,anthropic.auth0.com
 DOMAIN,anthropic-com.ghost.io
 DOMAIN,anthropic.com.cdn.cloudflare.net
-# GEOSITE,anthropic
-DOMAIN-KEYWORD,datadog
-DOMAIN-KEYWORD,sentry
-DOMAIN-KEYWORD,sift
-# GEOSITE,category-ntp
 
 
 # BardAI
