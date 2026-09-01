@@ -1,9 +1,7 @@
 # Claude Code 最高优先级（置于最前，压过所有通用规则）
-GEOSITE,anthropic
 DOMAIN-KEYWORD,datadog
 DOMAIN-KEYWORD,sentry
 DOMAIN-KEYWORD,sift
-GEOSITE,category-ntp
 
 # Perplexity
 DOMAIN-SUFFIX,perplexity.ai
@@ -41,9 +39,6 @@ DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473
 
 # Claude
 DOMAIN,servd-anthropic-website.b-cdn.net
@@ -287,9 +282,9 @@ DOMAIN-SUFFIX,poe.com
 # IP / Network
 IP-ASN,14061
 IP-ASN,399358,no-resolve
-# IP-ASN,20473
+IP-ASN,20473
 IP-CIDR,129.146.3.78/32,no-resolve
 IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR6,2607:6bc0::/32,no-resolve
-# IP-CIDR,24.199.123.28/32
-# IP-CIDR,64.23.132.171/32
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
