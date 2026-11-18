@@ -32,8 +32,10 @@ DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,observeit.net
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,segment.io
@@ -80,6 +82,8 @@ DOMAIN,anthropic.com.cdn.cloudflare.net
 
 # BardAI
 DOMAIN,ai.google.dev
+DOMAIN,lens.google.com
+DOMAIN,gemini.gstatic.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,makersuite.google.com
@@ -251,11 +255,19 @@ DOMAIN-SUFFIX,edgeservices.bing.com
 DOMAIN-SUFFIX,githubcopilot.com
 
 # Apple
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,issuer.apple.com
+DOMAIN-SUFFIX,ropes.apple.com
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask.icloud.com
+DOMAIN,mask-h2.icloud.com
+DOMAIN,ss-cleanup-proxy-prod.us-east-1m.app.apple.com
+DOMAIN-SUFFIX,app.apple.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apps.mzstatic.com
 DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,smoot.apple.com
@@ -263,7 +275,7 @@ DOMAIN-SUFFIX,smoot.apple.com
 # Developer Tools / Platforms
 DOMAIN,api.github.com
 DOMAIN,api.jetbrains.ai
-DOMAIN,cp4.cloudflare.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN,openrouter.ai
 DOMAIN-SUFFIX,cursor-cdn.com
